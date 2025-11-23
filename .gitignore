@@ -1,4 +1,5 @@
 # Hugo build output
+.hugo_build.lock
 **/public/*
 
 # Editor configs
