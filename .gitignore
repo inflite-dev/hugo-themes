@@ -1,0 +1,9 @@
+# Hugo build output
+**/public/*
+
+# Editor configs
+**/.idea/*
+**/.vscode/*
+
+# Filesystem artifacts
+**/.DS_Store
