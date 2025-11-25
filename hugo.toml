@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Hugo Demo Blog'
 
 theme = "hugo-basic-starter-template"
 
