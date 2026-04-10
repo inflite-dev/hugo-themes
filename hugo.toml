@@ -2,11 +2,14 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Hugo Demo Blog'
 
-theme = "hugo-basic-starter-template"
+theme = "hugo-tailwind-starter-template"
 
 [markup]
-[markup.highlight]
-style = "friendly"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Required for some rendering in the example markdown from the Rust Book
+  [markup.highlight]
+    style = "friendly"
 
 # gohugo.io/configuration/menus/
 [menus]
